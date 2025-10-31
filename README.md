@@ -22,8 +22,9 @@ nano .env
 ```bash
 # Run all tests
 npm test
+```
 
-## 📁 Project Structure
+### 4. 📁 Project Structure
 
 ```
 ├── .env.example          # Environment variables template
