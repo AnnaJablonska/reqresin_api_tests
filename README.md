@@ -2,26 +2,32 @@
 
 This project contains API tests for the Reqres.in API using Playwright Test framework.
 
-## 🚀 Quick Start
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn package manager
 
-### 1. Install Dependencies
+### Installation & Basic Configuration
 ```bash
+# 1. Clone and install
+git clone <repository-url>
 npm install
-```
 
-### 2. Setup Environment Variables
-```bash
-# Copy the example environment file
+# 2. Install Playwright (no browsers needed for API tests)
+npx playwright install
+
+# 3. Set up environment variables
 cp .env.example .env
+# Edit .env with your configuration
 
-# Edit .env with your actual values (optional - defaults work for basic testing)
-nano .env
-```
 
 ### 3. Run Tests
 ```bash
 # Run all tests
 npm test
+
+# View test results
+npx playwright show-report
+
 ```
 
 ### 4. 📁 Project Structure
